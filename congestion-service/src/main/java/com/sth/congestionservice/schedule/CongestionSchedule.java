@@ -35,9 +35,9 @@ public class CongestionSchedule {
 
     @Scheduled(fixedDelay = 300000)
     public void saveCongestions() {
-        if(!env.getProperty("server.port").equals("8300")) {
-            return;
-        }
+//        if(!env.getProperty("server.port").equals("8300")) {
+//            return;
+//        }
         RestTemplate restTemplate = new RestTemplate();
 
         String areaApiUrl = "http://" + env.getProperty("gateway") + "/api/v1/area-service/areas";

@@ -17,7 +17,7 @@ spring:
     name: area-service
   #database-config
   datasource:
-    url: jdbc:mysql://211.62.99.58:7733/cws?useUnicode=true;characterEncoding=utf8;
+    url: jdbc:mysql://localhost:3306/cws?useUnicode=true;characterEncoding=utf8;
     username: root
     password: 1234
     driver-class-name: com.mysql.cj.jdbc.Driver

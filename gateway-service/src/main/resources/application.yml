@@ -20,6 +20,7 @@ spring:
       globalcors:
         cors-configurations:
           '[/**]':
+#            allowedOrigins: "http://211.62.99.58:7730"
             allowedOrigins: "http://localhost:3000"
             allow-credentials: true
             allowedHeaders: '*'
@@ -54,11 +55,6 @@ spring:
           uri: lb://SBIKE-SERVICE
           predicates:
             - Path=/api/v1/sbike-service/**
-        # 도시
-        - id: city-service
-          uri: lb://CITY-SERVICE
-          predicates:
-            - Path=/api/v1/city-service/**
         # 쿠폰
         - id: coupon-service
           uri: lb://COUPON-SERVICE

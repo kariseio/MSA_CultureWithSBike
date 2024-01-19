@@ -26,9 +26,9 @@ public class CouponSchedule {
     @Scheduled(cron = "0 0 0 * * *") // 매일 12시
     public void CreateCouponSchedule() {
         log.info("Create Coupon Schedule");
-        if(!env.getProperty("server.port").equals("8600")) {
-            return;
-        }
+//        if(!env.getProperty("server.port").equals("8600")) {
+//            return;
+//        }
         String couponName = "따릉이 1시간 이용권("+ LocalDate.now().getMonth()+"/"+LocalDate.now().getDayOfMonth() +")";
         int quantity = 1000;
 
