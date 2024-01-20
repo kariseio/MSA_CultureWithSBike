@@ -120,7 +120,8 @@ public class KakaoService {
 
                     List<Sbike> sbikes = new ArrayList<>();
                     // 상위 3개의 데이터만 선택
-                    for(int i = 0; i < 3; i++) {
+                    int max = Math.min(3, nearSbikes.size());
+                    for(int i = 0; i < max; i++) {
                         sbikes.add(nearSbikes.get(i).getSbikeDTO().toEntity());
                     }
                     kakao.setSbike(sbikes);
