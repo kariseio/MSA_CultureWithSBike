@@ -37,27 +37,38 @@
 - 일별 발급된 쿠폰 수 통계
 - 문화행사 개최된 지역 순위
 - 현재 방문자수가 가장 많은 지역 순위
+![대시보드](https://github.com/kariseio/MSA_CultureWithSBike/assets/39698079/923d473b-f137-4716-9804-758e640ddedf)
+
 #### 지도
 - 개최되고 있는 문화행사 위치 핀
 - 핀 마커 클릭으로 간단한 정보 제공
 - 실시간 교통혼잡도 보기
+![지도](https://github.com/kariseio/MSA_CultureWithSBike/assets/39698079/720c5076-ef84-46f6-aac0-cad0afecf86b)
 #### 문화행사 리스트
 - 문화행사 리스트 보기
 - 페이징 처리
+![리스트](https://github.com/kariseio/MSA_CultureWithSBike/assets/39698079/7c8a54e6-2770-42f6-880d-fb3164a611f3)
 #### 디테일
 - 문화행사 세부정보
 - 지역 혼잡도 정보
 - 가까운 따릉이 정보
 - 문화행사 명 클릭시 해당 위치 지도에 표시 후 가까운 따릉이 대여소 위치 제공
+![디테일](https://github.com/kariseio/MSA_CultureWithSBike/assets/39698079/978ea2d3-251c-4a54-b778-631bab7be144)
+![디테일 지도](https://github.com/kariseio/MSA_CultureWithSBike/assets/39698079/7185ef78-eca5-4630-ac7c-eef01145fd3c)
 #### 유저 프로필
 - 유저 정보
 - 보유 쿠폰
+![프로필](https://github.com/kariseio/MSA_CultureWithSBike/assets/39698079/178b8981-119f-44e9-97dd-6cf83b6be06d)
 #### 쿠폰
 - Redis를 사용한 선착순 쿠폰 발급
 - 일정주기 자동 쿠폰 생성
+![쿠폰](https://github.com/kariseio/MSA_CultureWithSBike/assets/39698079/7e86381a-14d9-4999-9f7b-ba5c8040f7a2)
+64efab-5717-4322-804b-0c0555c933a2)
 #### 로그인
 - 회원가입
 - 로그인시 JWT 토큰 발급
+![회원가입](https://github.com/kariseio/MSA_CultureWithSBike/assets/39698079/22ae4702-3945-4bed-b5fb-3f328131595c)
+![로그인](https://github.com/kariseio/MSA_CultureWithSBike/assets/39698079/12fb1396-0809-4064-88ee-5949e6a6b545)
 
 ## 💻주요 기술
 - 외부 API 호출을 통한 공공 데이터 처리 
